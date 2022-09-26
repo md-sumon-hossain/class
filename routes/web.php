@@ -18,3 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/sumon',[BladeController::class,'blade'])->name('blade');
+Route::get('/new',[BladeController::class,'new'])->name('new');
